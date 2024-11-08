@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phils_Library_Database", "Phils_Library_Database\Phils_Library_Database.csproj", "{AB41B60A-FFF4-4897-9D34-A0F6795BE4BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB41B60A-FFF4-4897-9D34-A0F6795BE4BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB41B60A-FFF4-4897-9D34-A0F6795BE4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB41B60A-FFF4-4897-9D34-A0F6795BE4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB41B60A-FFF4-4897-9D34-A0F6795BE4BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68C1FB0F-502B-4CE0-B739-6A62A41AC7D0}
+	EndGlobalSection
+EndGlobal
