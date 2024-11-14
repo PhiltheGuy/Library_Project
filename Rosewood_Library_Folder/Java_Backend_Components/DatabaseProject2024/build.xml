@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- You may freely edit this file. See commented blocks below for -->
+<!-- some examples of how to customize the build. -->
+<!-- (If you delete it and reopen the project it will be recreated.) -->
+<!-- By default, only the Clean and Build commands use this build script. -->
+<!-- Commands such as Run, Debug, and Test only use this build script if -->
+<!-- the Compile on Save feature is turned off for the project. -->
+<!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
+<!-- in the project's Project Properties dialog box.-->
+<project name="DatabaseProject2024" default="default" basedir=".">
+    <description>Builds, tests, and runs the project DatabaseProject2024.</description>
+    <import file="nbproject/build-impl.xml"/>
+
+    <!-- Set properties for the lib directory where the JDBC driver is stored -->
+    <property name="lib.dir" location="lib"/>
+    <property name="jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+
+    <!-- Define classpath to include the JDBC driver -->
+    <path id="classpath">
+        <fileset dir="${lib.dir}">
+            <include name="*.jar"/>
+        </fileset>
+        <!-- Include the classes directory for compiled classes -->
+        <pathelement location="${build.classes.dir}"/>
+    </path>
+
+    <!-- Target for compiling the project -->
+    <target name="compile">
+        <mkdir dir="${build.classes.dir}"/>
+        <javac srcdir="${src.dir}" destdir="${build.classes.dir}" classpathref="classpath"/>
+    </target>
+
+    <!-- Target to run the application -->
+    <target name="run" depends="compile">
+        <java classname="databaseproject2024.DatabaseProject2024" classpathref="classpath">
+            <arg line="your arguments here if any"/>
+        </java>
+    </target>
+
+    <!-- Additional default targets such as clean -->
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+    </target>
+
+</project>
