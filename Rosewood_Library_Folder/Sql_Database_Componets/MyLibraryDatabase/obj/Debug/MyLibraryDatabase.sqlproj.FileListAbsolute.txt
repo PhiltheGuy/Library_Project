@@ -1,6 +1,0 @@
-C:\Users\Holme\source\repos\MyLibraryDatabase\bin\Debug\MyLibraryDatabase.dacpac
-C:\Users\Holme\source\repos\MyLibraryDatabase\bin\Debug\MyLibraryDatabase.dll
-C:\Users\Holme\source\repos\MyLibraryDatabase\bin\Debug\MyLibraryDatabase.pdb
-C:\Users\Holme\source\repos\MyLibraryDatabase\obj\Debug\MyLibraryDatabase.sqlproj.AssemblyReference.cache
-C:\Users\Holme\source\repos\MyLibraryDatabase\obj\Debug\MyLibraryDatabase.dll
-C:\Users\Holme\source\repos\MyLibraryDatabase\obj\Debug\MyLibraryDatabase.pdb
